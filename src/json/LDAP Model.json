@@ -1,0 +1,148 @@
+------------------------------------------------------------------------------------------------------------
+
+Endpoint: /synchronizeCabinet
+Type: POST
+Request:
+{	
+   "groupsList":[
+      {
+         "groupId":"",
+         "groupName":"",
+         "groupImportedAs":"Super / Normal",
+         "groupDistinguishName":""
+      }
+   ],
+   "organizationalUnitsList":[
+      {
+         "organizationalUnitId":"",
+         "organizationalUnitName":"",
+         "organizationalUnitImportedAs":"Super / Normal",
+         "organizationalUnitDistinguishName":""
+      }
+   ]
+}
+Response:
+{	
+   "statusCode":1,
+   "statusMessage":"Success",
+   "groupsList":[
+      {
+         "groupId":"",
+         "groupName":"",
+         "groupImportedAs":"Super / Normal",
+         "groupDistinguishName":""
+      }
+   ],
+   "organizationalUnitsList":[
+      {
+         "organizationalUnitId":"",
+         "organizationalUnitName":"",
+         "organizationalUnitImportedAs":"Super / Normal",
+         "organizationalUnitDistinguishName":""
+      }
+   ]
+}
+
+------------------------------------------------------------------------------------------------------------
+
+Endpoint: /filterDomainList
+Type: GET
+Request: 
+{
+   "type":"Group / OrganizationalUnit",
+   "searchTerm":""
+}
+Response: 
+{	
+   "statusCode":1,
+   "statusMessage":"Success",
+   "groupsList":[
+      {
+         "groupId":"",
+         "groupName":"",
+         "groupImportedAs":"Super / Normal",
+         "groupDistinguishName":""
+      }
+   ],
+   "organizationalUnitsList":[
+      {
+         "organizationalUnitId":"",
+         "organizationalUnitName":"",
+         "organizationalUnitImportedAs":"Super / Normal",
+         "organizationalUnitDistinguishName":""
+      }
+   ]
+}
+
+------------------------------------------------------------------------------------------------------------
+
+Endpoint: /getScheduleInformation
+Type: GET
+Request: 
+{
+   "selectedCabinetDetails":{
+      "cabinetName":"",
+      "cabinetId":"",
+      "cabinetPassword":"",
+      "selectedDomain":{
+         "domainName":"Home",
+         "domainId":"1",
+         "domainUserInfo":{
+            "domainUserName":"",
+            "distinguishedUserName":""
+         }
+      }
+   }
+}
+Response: 
+{
+   "statusCode":1,
+   "statusMessage":"Success",
+   "schedulerConfig":{
+      "syncNow":{
+         "checked":false
+      },
+      "doNotSchedule":{
+         "checked":true
+      },
+      "scheduleOnce":{
+         "checked":false,
+         "day":"Monday",
+         "time":"05:15AM"
+      },
+      "syncInterval":{
+         "checked":false,
+         "interval":"30 mins"
+      }
+   }
+}
+
+------------------------------------------------------------------------------------------------------------
+
+Endpoint: /updateScheduleInformation
+Type: POST
+Request: 
+{
+   "schedulerConfig":{
+      "syncNow":{
+         "checked":false
+      },
+      "doNotSchedule":{
+         "checked":true
+      },
+      "scheduleOnce":{
+         "checked":false,
+         "day":"Monday",
+         "time":"05:15AM"
+      },
+      "syncInterval":{
+         "checked":false,
+         "interval":"30 mins"
+      }
+   }
+}
+Response: 
+{
+   "statusCode":1,
+   "statusMessage":"Success",
+}

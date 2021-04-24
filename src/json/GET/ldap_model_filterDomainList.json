@@ -1,0 +1,181 @@
+{
+  "groupsList": [
+    {
+      "groupId": 0,
+      "groupName": "Arial Team",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 1,
+      "groupName": "Aerosol",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 2,
+      "groupName": "Benevial Group",
+      "groupImportedAs": "Super",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 3,
+      "groupName": "Candor Team",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 4,
+      "groupName": "Zbranko",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },{
+      "groupId": 5,
+      "groupName": "Genesis II",
+      "groupImportedAs": "Super",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 6,
+      "groupName": "Management Team",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 7,
+      "groupName": "Quent Group",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },{
+      "groupId": 8,
+      "groupName": "Technical Team",
+      "groupImportedAs": "Super",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 9,
+      "groupName": "User Experience",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 10,
+      "groupName": "User Experience II",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    },
+    {
+      "groupId": 11,
+      "groupName": "User Experience III",
+      "groupImportedAs": "Normal",
+      "groupDistinguishName": ""
+    }
+  ],
+  "organizationalUnitsList": [
+    {
+      "organizationalUnitId": 0,
+      "organizationalUnitName": "Arial team",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": "",
+      "domainGroupList": [
+        {
+          "groupId": 0,
+          "groupName": "Genesis II",
+          "groupImportedAs": "Normal",
+          "groupDistinguishName": ""
+        }
+      ]
+    },
+    {
+      "organizationalUnitId": 1,
+      "organizationalUnitName": "Aerosol",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": "",
+      "domainGroupList": [
+        {
+          "groupId": 0,
+          "groupName": "Genesis 67",
+          "groupImportedAs": "Normal",
+          "groupDistinguishName": ""
+        },
+        {
+          "groupId": 0,
+          "groupName": "ABC III",
+          "groupImportedAs": "Super",
+          "groupDistinguishName": ""
+        }
+      ]
+    },
+    {
+      "organizationalUnitId": 2,
+      "organizationalUnitName": "Benevial Group",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 3,
+      "organizationalUnitName": "Candor team",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 4,
+      "organizationalUnitName": "Genesis I",
+      "organizationalUnitImportedAs": "Super",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 5,
+      "organizationalUnitName": "Technical team",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 6,
+      "organizationalUnitName": "Manufacturing OU",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 7,
+      "organizationalUnitName": "Complaint HR",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 8,
+      "organizationalUnitName": "Management Group",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 9,
+      "organizationalUnitName": "Quent Group",
+      "organizationalUnitImportedAs": "Super",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 10,
+      "organizationalUnitName": "Management Group",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 11,
+      "organizationalUnitName": "Quent Group",
+      "organizationalUnitImportedAs": "Super",
+      "organizationalUnitDistinguishName": ""
+    },{
+      "organizationalUnitId": 12,
+      "organizationalUnitName": "Management Group",
+      "organizationalUnitImportedAs": "Normal",
+      "organizationalUnitDistinguishName": ""
+    },
+    {
+      "organizationalUnitId": 13,
+      "organizationalUnitName": "Quent Group",
+      "organizationalUnitImportedAs": "Super",
+      "organizationalUnitDistinguishName": ""
+    }
+  ]
+}

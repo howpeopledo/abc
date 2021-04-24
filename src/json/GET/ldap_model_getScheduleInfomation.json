@@ -1,0 +1,19 @@
+{
+    "schedulerConfig":{
+       "syncNow":{
+          "checked":true
+       },
+       "doNotSchedule":{
+          "checked":true
+       },
+       "scheduleOnce":{
+          "checked":false,
+          "day":"Monday",
+          "time":"05:15AM"
+       },
+       "syncInterval":{
+          "checked":false,
+          "interval":"30mins"
+       }
+    }
+ }
